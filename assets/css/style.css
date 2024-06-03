@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Nunito Sans", sans-serif;
+  transition: all 1s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .before-header {
+    height: 3rem;
+  }
+  .fa-search-location,
+  .fa-phone {
+    color: white;
+  }
+  .social-wrap svg {
+    padding: 0.3rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: #fff;
+    color: red;
+  }
+  .hero-section {
+    background-image: url("../images/interative-menu-img-type2-1.jpg");
+    background-size: cover;
+    background-color: rgb(69, 67, 67);
+    background-blend-mode: overlay;
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 768px) {
+}
