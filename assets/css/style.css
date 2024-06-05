@@ -59,6 +59,10 @@
   .socials svg {
     height: 1.5rem;
   }
+  .m-img {
+    height: 13rem !important;
+    width: 14rem !important;
+  }
 }
 @media screen and (max-width: 768px) {
 }
